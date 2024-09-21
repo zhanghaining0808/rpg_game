@@ -1,0 +1,11 @@
+def Remove_equipment():
+    print("暴风大剑")
+    print("反曲弓")
+    print("锁子甲")
+    print("负极斗篷")
+    print("大棒")
+    print("眼泪")
+    print("巨人腰带")
+    print("拳套")
+    print("金铲铲")
+    print("金锅锅")
