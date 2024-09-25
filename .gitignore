@@ -2,3 +2,4 @@ demo1/
 
 # python缓存文件
 __pycache__/
+*game_new
