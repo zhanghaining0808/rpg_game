@@ -1,6 +1,3 @@
-from rpg.inventory import Inventory
-
-
 # 装备数值属性类，主要用于方便设置属性作用到角色身上
 # 空属性的意义：给后续将要实现将属性作用到角色身上的的功能做准备
 class EquipmentStatus:
@@ -25,7 +22,7 @@ class EquipmentStatus:
         self.CRT = CRT
 
 
-class Equipment(Inventory):
+class Equipment:
     def __init__(self, name: str) -> None:
         self.name = name
 
@@ -51,7 +48,7 @@ class Weapon(Equipment):
         self.AS = AS
         self.CRT = CRT
 
-    # 给装备设定会对玩家影响属性值，其余没设置的值则为0，也就表示不影响玩家属性
+    # 给武器设定会对玩家影响属性值，其余没设置的值则为0，也就表示不影响玩家属性
     def get_status(self) -> EquipmentStatus:
         return EquipmentStatus(AD=self.AD, AP=self.AP, AS=self.AS, CRT=self.CRT)
 
