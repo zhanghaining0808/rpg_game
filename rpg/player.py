@@ -37,15 +37,15 @@ class Player:
         # 因为添加了装备 所以需要将该装备的属性传递作用到玩家自身
         self.apply_equipment_status(status, False)
         # 显示添加成功提示信息
-        print(f"{self.name}已获得{equipment.name}")
-        print(f"{equipment.name}的生命值为{equipment.HP}")
-        print(f"{equipment.name}的法力值为{equipment.MP}")
+        # print(f"{self.name}已获得{equipment.name}")
+        # print(f"{equipment.name}的生命值为{equipment.HP}")
+        # print(f"{equipment.name}的法力值为{equipment.MP}")
         print(f"{equipment.name}的物理攻击为{equipment.AD}")
-        print(f"{equipment.name}的魔法攻击为{equipment.AP}")
-        print(f"{equipment.name}的攻击速度为{equipment.AS}")
-        print(f"{equipment.name}的暴击率为{equipment.CRT}")
-        print(f"{equipment.name}的物理防御为{equipment.DEF}")
-        print(f"{equipment.name}的魔法防御为{equipment.MDEF}")
+        # print(f"{equipment.name}的魔法攻击为{equipment.AP}")
+        # print(f"{equipment.name}的攻击速度为{equipment.AS}")
+        # print(f"{equipment.name}的暴击率为{equipment.CRT}")
+        # print(f"{equipment.name}的物理防御为{equipment.DEF}")
+        # print(f"{equipment.name}的魔法防御为{equipment.MDEF}")
 
     def remove_equipment(self, equipment: Equipment) -> None:
         # 删除装备 并且把该装备所包含的属性存放到status变量中

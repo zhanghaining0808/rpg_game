@@ -19,4 +19,11 @@ class Game:
 
         # 查看装备属性有没有应用到玩家身上
         # 结果应该是150
-        print(f"玩家{zhn.name}的攻击力有{zhn.AD}")
+        print(f"玩家{zhn.name}的生命值为{zhn.HP}")
+        print(f"玩家{zhn.name}的法力值为{zhn.MP}")
+        print(f"玩家{zhn.name}的物理攻击为{zhn.AD}")
+        print(f"玩家{zhn.name}的魔法攻击为{zhn.AP}")
+        print(f"玩家{zhn.name}的攻击速度为{zhn.AS}")
+        print(f"玩家{zhn.name}的暴击率为{zhn.CRT}")
+        print(f"玩家{zhn.name}的物理防御为{zhn.DEF}")
+        print(f"玩家{zhn.name}的魔法防御为{zhn.MDEF}")
